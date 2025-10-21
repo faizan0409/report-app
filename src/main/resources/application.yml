@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: fitbudd
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+
+
+aws:
+  accessKeyId:
+  secretAccessKey:
+  sessionToken:
+  region:
+  dynamodb:
+    endpoint:
+    feedbackTable:
+    userTable:
+    workoutTable:
+    coachTable:
+    loginTable:
+    reportTable:
+  roleArn:
+  sqs:
+    queue:
+      url:
+      name:
+
+report:
+  sender:
+    email: fitbuddgym@gmail.com
+  admin:
+    email: fitbuddgymowner@gmail.com
